@@ -49,7 +49,7 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    font-size: 0.88rem;
+    font-size: 0.95em;
     user-select: none;
     overflow-x: hidden;
     color: var(--color-dark);
@@ -115,7 +115,7 @@ b{
 
 .container{
     display: grid;
-    width: 96%;
+    width: 98%;
     margin: 0 auto;
     gap: 1.8rem;
     grid-template-columns: 12rem auto 23rem;
@@ -362,7 +362,7 @@ main .recent-orders table:hover{
 }
 
 main table tbody td{
-    height: 2.8rem;
+    height: 5rem;
     border-bottom: 1px solid var(--color-light);
     color: var(--color-dark-variant);
 }
