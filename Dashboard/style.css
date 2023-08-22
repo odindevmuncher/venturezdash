@@ -49,7 +49,7 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    font-size: 0.95em;
+    font-size: 1.1em;
     user-select: none;
     overflow-x: hidden;
     color: var(--color-dark);
@@ -79,6 +79,11 @@ h2{
 h3{
     font-weight: 500;
     font-size: 0.87rem;
+}
+h4{
+    font-weight: 500;
+    font-size: 0.87rem;
+    color: #ff5a65;
 }
 
 small{
@@ -357,6 +362,7 @@ main .recent-orders table{
     transition: all 0.3s ease;
 }
 
+
 main .recent-orders table:hover{
     box-shadow: none;
 }
@@ -404,7 +410,7 @@ main .recent-orders a{
 }
 
 .right-section .dark-mode span{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     width: 50%;
     height: 100%;
     display: flex;
@@ -706,3 +712,56 @@ main .recent-orders a{
     }
 
 }
+.company-container {
+    position: relative;
+    padding-left: 60px;
+    width: 200px; /* or whatever width you find suitable */
+    box-sizing: border-box; /* ensures that padding is included in the width */
+}
+
+/* Rest of your CSS stays the same */
+
+
+.company-logo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+}
+
+.company-name {
+    display: block; /* This ensures the name starts on a new line */
+    /* Add any other desired styles */
+}
+
+.company-title-header {
+    padding-left: 60px; /* Match the padding-left value of .company-container */
+}
+
+/* recent news */
+
+.notification img.new-company-logo {
+    width: 35px; /* This will set the width of the logo. Adjust as necessary. */
+    height: auto; /* This will maintain the original aspect ratio of the logo. */
+    display: block;
+    margin: 0 auto; /* This will horizontally center the logo. */
+    border-radius: 5px; /* This gives the logo slightly rounded corners. */
+}
+.toggle .logo {
+    width: 70%; 
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible; /* Make sure nothing is hidden if it goes outside of this container */
+}
+
+
+.toggle .logo img {
+    width: 120px !important; /* Force a width */
+    height: auto !important; /* Let the height adjust according to the width while maintaining the aspect ratio */
+}
+
+
